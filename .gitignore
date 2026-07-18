@@ -1,0 +1,58 @@
+# Datasets
+Dataset/
+datasets/
+*.csv
+*.parquet
+*.zip
+*.gz
+
+# Trained Models
+models/
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.onnx
+
+# Google Colab / Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Secrets / Credentials
+.env
+*.pem
+*.key
+credentials.json
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+
+# Large Model/Experiment Files
+checkpoints/
+runs/
+wandb/
